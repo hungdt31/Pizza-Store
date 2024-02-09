@@ -19,6 +19,6 @@ public class Singleton {
 	public static void main(String[] args) {
 		Sun sun_obj1 = Sun.getInstance();
 		Sun sun_obj2 = Sun.getInstance();
-		if (sun_obj1 == sun_obj2) System.out.println("Có duy nhất một mặt trời");;
+		if (sun_obj1 == sun_obj2) System.out.println("Có duy nhất một mặt trời");
 	}
 }
